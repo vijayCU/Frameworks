@@ -1,0 +1,14 @@
+<suite name="Suite">
+  <test  name="TestAB">
+    <classes>
+      <class name="HYBD_FW.MultipleTest1"/>
+    </classes>
+  </test> 
+  
+  <test name="Test">
+    <classes>
+      <class name="HYBD_FW.MultipleTest2"/>
+    </classes>
+  </test> 
+ 
+</suite> 

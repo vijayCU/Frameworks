@@ -1,0 +1,14 @@
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <groups>
+    <run>
+      <include name="user"/>
+      <include name="product"/>
+      
+    </run>
+  </groups>
+    <classes>
+      <class name="HYBD_FW.GroupingDemo"/>
+    </classes>
+  </test> 
+</suite>

@@ -1,0 +1,8 @@
+<suite parallel="methods" name="Suite">
+  <test parallel="methods" name="Test">
+    <classes>
+      <class name="testngcheck.Demo1"/>
+      <class name="testngcheck.Demo2"/>
+    </classes>
+  </test> 
+</suite>
