@@ -1,5 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test name="Test">
   <parameter name="hubURL" value="http://localhost:4444/wd/hub"/>
@@ -7,5 +5,5 @@
     <classes>
       <class name="scripts.LoginTest"/>
     </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+  </test> 
+</suite> 
