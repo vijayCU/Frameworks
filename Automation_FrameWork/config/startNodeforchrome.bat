@@ -1,0 +1,1 @@
+java -Dwebdriver.chrome.driver=.\config\chromedriver.exe -jar .\config\selenium-server-standalone-3.3.1.jar -role node -hub http://localhost:4444/grid/register/
