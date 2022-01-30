@@ -1,9 +1,16 @@
-<suite name="Suite">
-  <test name="Test">
+<suite name="Suite" parallel="tests">
+  <test name="Test1">
   <parameter name="hubURL" value="http://localhost:4444/wd/hub"/>
   <parameter name="browser" value="chrome"/>
-    <classes>
-      <class name="scripts.LoginTest"/>
-    </classes>
+    <packages>
+      <package name="scripts"/>
+    </packages>
+  </test> 
+  <test name="Test2">
+  <parameter name="hubURL" value="http://localhost:4444/wd/hub"/>
+  <parameter name="browser" value="firefox"/>
+    <packages>
+      <package name="scripts"/>
+    </packages>
   </test> 
 </suite> 
