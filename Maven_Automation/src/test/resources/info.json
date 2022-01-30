@@ -1,0 +1,11 @@
+{
+"key1":"VIJAY UDAGATTI",
+"key2":10,
+"key3":10.56,
+"key4":true,
+"key5":["K5V1","K5V2"],
+"key6":{"K6a":"V6a"},
+
+"key7":[{"K7a":"V7a"},{"K7b":"V7b"}],
+"key8":{"key8a":{"key8b":{"k":"Laxmi"}}}
+}
