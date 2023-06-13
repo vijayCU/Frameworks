@@ -17,10 +17,5 @@ public class SeleniumGrid {
 		DesiredCapabilities whichBrowser = DesiredCapabilities.chrome();
 		WebDriver driver=new RemoteWebDriver(whichURL, whichBrowser);
 		driver.get("http://www.google.com");
-		
-		
-		
-		
-				
 	}
 }
